@@ -1,0 +1,13 @@
+.DS_Store
+*.log
+*.out
+.idea
+.idea/workspace.xml
+__pycache__
+TridentProvisioner/trident_jobs/
+*.db
+Vagrantfile
+.vagrant
+*.zip
+target/*
+*.iml
