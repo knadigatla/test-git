@@ -20,7 +20,7 @@ public class TestJGit {
 
     @Before
     public void init() throws IOException {
-        localPath = "/Users/kiran/Documents/github/test-git";
+        localPath = "/Users/kiran/Documents/github/test-git1234";
         remotePath = "https://github.com/knadigatla/test-git.git";
         localRepo = new FileRepository(localPath + "/.git");
         git = new Git(localRepo);
@@ -41,8 +41,6 @@ public class TestJGit {
 
     @Test
     public void testAdd() throws IOException, GitAPIException {
-        File myfile = new File(localPath + "/myfile");
-        myfile.createNewFile();
         git.add().addFilepattern("myfile").call();
     }
 
@@ -56,6 +54,7 @@ public class TestJGit {
     public void testPush() throws IOException, JGitInternalException,
             GitAPIException {
         CredentialsProvider cp = new UsernamePasswordCredentialsProvider("userid", "password");
+
         git.push().setCredentialsProvider(cp).call();
     }
 

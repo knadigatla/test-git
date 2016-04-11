@@ -21,6 +21,12 @@
             <version>4.12</version>
         </dependency>
 
+        <dependency>
+            <groupId>org.kohsuke</groupId>
+            <artifactId>github-api</artifactId>
+            <version>1.73</version>
+        </dependency>
+
 
     </dependencies>
 
