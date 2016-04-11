@@ -21,7 +21,7 @@ import java.util.List;
 public class JGitOps {
 
     final private static String USERNAME="knadigatla";
-    final private static String OAUTH_TOKEN="ce419ec2bbd9c1197547bd64270f23467f3c75ca";
+    final private static String OAUTH_TOKEN="";
     final private static String GITHUB_URL="https://github.com";
     final private static String LOCALPATH="/Users/kiran/Documents/github/";
 
